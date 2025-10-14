@@ -1,0 +1,124 @@
+/* Color Palette
+--mauve: #dabfffff;
+--tropical-indigo: #907ad6ff;
+--ultra-violet: #4f518cff;
+--space-cadet: #2c2a4aff;
+*/
+
+/* Global styles 
+------------------------------------*/
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+body {
+    background: #dabfffff;
+    font-family: "Libre Baskerville", serif;
+    margin: 0;
+}
+h1{
+    font-size: 4.0em;
+    font-family: "Nanum Gothic", sans-serif;
+}
+h2{
+    font-size: 3.0em;
+    font-family: "Nanum Gothic", sans-serif;
+    margin-top:0;
+}
+h3{
+    font-size: 2.5em;
+    font-family: "Nanum Gothic", sans-serif;
+}
+h1 h2 {
+    margin: 0;
+}
+p, li, a{
+    font-size: 1.25em;
+}
+img {
+    height: 300px;
+    width: 300px;
+}
+.content-wrap{
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow:hidden;
+}
+.column-narrow{
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+.column-wide{
+    width: 70%;
+    float: left;
+    min-height: 225px;
+}
+/* Header & Footer 
+------------------------------------*/
+header, footer{
+    background: #2c2a4aff;
+    color: white;
+}
+footer{
+    text-align: center;
+}
+.profile-img
+{
+    /*
+    width: 300px;
+    float:left;
+    margin-right: 30px;
+    */
+    border-radius: 50%;
+}
+.content-info a{
+    padding: 10px;
+    display: inline-block;
+}
+/* Work Experience
+------------------------------------*/
+.Work{
+    background: #907ad6ff;
+}
+
+
+/* Education
+------------------------------------*/
+.Education{
+    background: #4f518cff;
+}
+
+/* Fonts
+------------------------------------*/
+.libre-baskerville-regular {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.libre-baskerville-bold {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.libre-baskerville-regular-italic {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+.nanum-gothic-regular {
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.nanum-gothic-bold {
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
